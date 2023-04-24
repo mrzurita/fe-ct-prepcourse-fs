@@ -21,8 +21,8 @@ function nuevoUsuario(nombre, email, password) {
    // Este debe tener las propiedades: "nombre", "email" y "password" con sus respectivos valores.
    // Retornar el objeto.
    // Tu código:
-   var caca = {"nombre": nombre, "email": email, "password": password}
-   return caca
+   var nUser = {"nombre": nombre, "email": email, "password": password}
+   return nUser
 }
 
 function agregarPropiedad(objeto, propiedad) {
@@ -47,8 +47,8 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
    // El parámetro "objetoMisterioso" posee una propiedad con el nombre "numeroMisterioso".
    // Debes multiplicar este número por 5 y retornar el resultado.
    // Tu código:
-   var caca = objetoMisterioso["numeroMisterioso"] *5
-   return caca
+   var niIdea = objetoMisterioso["numeroMisterioso"] *5
+   return niIdea
 
 }
 
@@ -129,10 +129,10 @@ function sumarLikesDeUsuario(objetoUsuario) {
    // Cada post posee una propiedad llamada "likes". Esta propiedad es un número.
    // Debes sumar los likes de todos los post y retornar el resultado.
    // Tu código:
-   let caca = 0
+   let likes = 0
    for (let i = 0; i < objetoUsuario.posts.length; i++){
-      caca += objetoUsuario.posts[i].likes
-   } return caca
+      likes += objetoUsuario.posts[i].likes
+   } return likes
 }
 
 function agregarMetodoCalculoDescuento(objetoProducto) {

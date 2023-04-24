@@ -66,8 +66,8 @@ function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
-   let caca = euro * 1.20 / 1
-   return caca
+   let com = euro * 1.20 / 1
+   return com
 }
 
 function esVocal(letra) {
